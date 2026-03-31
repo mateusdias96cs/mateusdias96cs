@@ -31,7 +31,7 @@ Programa : Hackers do Bem — SENAI (Nível Fundamental ✅ Concluído)
 Foco     : Pentest | DevSecOps | Offensive Security
 Status   : [ APRENDENDO ] Construindo base sólida em segurança ofensiva e defensiva
 Nível    : Mestre de Segurança — 2.208 XP | Ranking #2526
-Cidade   : Brasil 🇧🇷
+País/Estado : Brasil - Santa Catarina 🇧🇷
 ```
 
 > *"Security is not a product, but a process."* — Bruce Schneier
