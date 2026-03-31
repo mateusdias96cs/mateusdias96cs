@@ -1,4 +1,4 @@
-[README(5).md](https://github.com/user-attachments/files/26388360/README.5.md)
+[README(6).md](https://github.com/user-attachments/files/26388654/README.6.md)
 <div align="center">
 
 ```
@@ -12,9 +12,9 @@
 
 <div align="center">
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-mateusdias96cs-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/mateusdias96cs)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-mateus96cs-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/mateus96cs)
 [![GitHub](https://img.shields.io/badge/GitHub-mateusdias96cs-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mateusdias96cs)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mateus_Dias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU-LINKEDIN-AQUI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mateus_Dias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mateusdiascs/)
 
 </div>
 
@@ -161,7 +161,7 @@ Cidade   : Brasil 🇧🇷
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=mateusdias96cs&theme=dark&hide_border=true&background=0d1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41)](https://github.com/mateusdias96cs)
 
-[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/mateusdias96cs.png)](https://tryhackme.com/p/mateusdias96cs)
+[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/mateus96cs.png)](https://tryhackme.com/p/mateus96cs)
 
 </div>
 
