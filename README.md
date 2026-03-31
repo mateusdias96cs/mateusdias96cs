@@ -1,4 +1,4 @@
-[README(2).md](https://github.com/user-attachments/files/26387521/README.2.md)
+[README(5).md](https://github.com/user-attachments/files/26388360/README.5.md)
 <div align="center">
 
 ```
@@ -31,7 +31,7 @@ Programa : Hackers do Bem — SENAI (Nível Fundamental ✅ Concluído)
 Foco     : Pentest | DevSecOps | Offensive Security
 Status   : [ APRENDENDO ] Construindo base sólida em segurança ofensiva e defensiva
 Nível    : Mestre de Segurança — 2.208 XP | Ranking #2526
-País/Estado : Brasil - Santa Catarina 🇧🇷
+Cidade   : Brasil 🇧🇷
 ```
 
 > *"Security is not a product, but a process."* — Bruce Schneier
@@ -138,15 +138,18 @@ País/Estado : Brasil - Santa Catarina 🇧🇷
 
 ## `> ls repos/`
 
-### 📂 Repositórios
+### 📂 Projetos
 
-| Repositório | Descrição | Status |
-|---|---|---|
-| 📁 [writeups-tryhackme](https://github.com/mateusdias96cs/writeups-tryhackme) | Soluções detalhadas de rooms do TryHackMe | 🔨 Em construção |
-| 📁 [scripts-python](https://github.com/mateusdias96cs/scripts-python) | Scripts de automação e segurança em Python | 🔨 Em construção |
-| 📁 [estudos-ciberseguranca](https://github.com/mateusdias96cs/estudos-ciberseguranca) | Notas e resumos técnicos do curso e labs | 🔨 Em construção |
+| Repositório | Descrição | Stack | Status |
+|---|---|---|---|
+| 🔥 [security-news-aggregator](https://github.com/mateusdias96cs/security-news-aggregator) | Agregador automático de notícias de cibersegurança em tempo real com 10+ fontes (BleepingComputer, CISA, Hacker News...) | Python · HTML | ✅ Funcional |
+| 🎣 [phshing.dio.cyberseguranca](https://github.com/mateusdias96cs/phshing.dio.cyberseguranca) | Simulação educacional de site de phishing para estudo de engenharia social | HTML · CSS | ✅ Funcional |
+| 💀 [Projeto.Ransoware.python](https://github.com/mateusdias96cs/Projeto.Ransoware.python) | Implementação educacional de ransomware em Python demonstrando criptografia e descriptografia | Python | ✅ Funcional |
+| 🔐 [projeto-dio-Ransomware](https://github.com/mateusdias96cs/projeto-dio-Ransomware) | Estudo de ransomware em ambiente controlado | Python | ✅ Funcional |
+| 🌐 [enumeracao.smb](https://github.com/mateusdias96cs/enumeracao.smb) | Guia didático de enumeração SMB com password spraying | Bash · SMB | ✅ Funcional |
+| 🤖 [Cyberseguran-a-LLM](https://github.com/mateusdias96cs/Cyberseguran-a-LLM) | Base de conhecimento em cibersegurança e pentest usando NotebookLLM | AI · Research | ✅ Funcional |
 
-> ⚠️ *Portfólio em construção ativa — novos projetos sendo adicionados regularmente.*
+> 🔨 *Portfólio em construção ativa — novos projetos sendo adicionados regularmente.*
 
 ---
 
