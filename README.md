@@ -1,4 +1,3 @@
-[README(6).md](https://github.com/user-attachments/files/26388654/README.6.md)
 <div align="center">
 
 ```
@@ -25,13 +24,13 @@
 ```bash
 $ cat perfil.txt
 
-Nome     : Mateus Camara Dias
-Curso    : Tecnologia em Cibersegurança — SENAC (1° Semestre)
-Programa : Hackers do Bem — SENAI (Nível Fundamental ✅ Concluído)
-Foco     : Pentest | DevSecOps | Offensive Security
-Status   : [ APRENDENDO ] Construindo base sólida em segurança ofensiva e defensiva
-Nível    : Mestre de Segurança — 2.208 XP | Ranking #2526
-País/Estado   : Brasil - Santa Catarina🇧🇷
+Nome      : Mateus Camara Dias
+Curso     : Tecnologia em Cibersegurança — SENAC (1° Semestre)
+Programa  : Hackers do Bem — SENAI (Nível Fundamental ✅ Concluído)
+Foco      : Pentest | DevSecOps | Offensive Security
+Status    : [ APRENDENDO ] Construindo base sólida em segurança ofensiva e defensiva
+Nível     : Mestre de Segurança — 2.208 XP | Ranking #2526
+País/Estado: Brasil - Santa Catarina 🇧🇷
 ```
 
 > *"Security is not a product, but a process."* — Bruce Schneier
@@ -63,6 +62,8 @@ País/Estado   : Brasil - Santa Catarina🇧🇷
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ---
 
@@ -118,22 +119,6 @@ País/Estado   : Brasil - Santa Catarina🇧🇷
 | 🟢 **Fundamental** | ✅ Concluído | 12/12 módulos + Avaliação Final aprovada |
 | 🔵 **Especializado** | 🔄 Próxima etapa | — |
 
-**Módulos do Nível Fundamental:**
-
-| # | Módulo | Status |
-|---|---|---|
-| 1 | Técnicas Utilizadas na Identificação de Ameaças | ✅ 100% |
-| 2 | Controles de Acesso | ✅ 100% |
-| 3 | Gerenciamento de Identidades e Contas | ✅ 100% |
-| 4 | Proteção Web e Desenvolvimento Seguro | ✅ 88% (ativ. em correção) |
-| 5 | Redundância, Backup, Segurança Física e Destruição de Dados | ✅ 75% (ativ. em correção) |
-| 6 | Conceitos de Criptografia | ✅ 75% (ativ. em correção) |
-| 7 | Infraestrutura de Chaves Públicas e Blockchain | ✅ 75% (ativ. em correção) |
-| 8 | Segurança no Host | ✅ 75% (ativ. em correção) |
-| 9 | Rede Segura e Equipamentos de Segurança | ✅ 75% (ativ. em correção) |
-| 10 | Resposta a Incidentes e Protocolos Seguros | ✅ 75% (ativ. em correção) |
-| — | Avaliação Final do Curso | ✅ Aprovado |
-
 ---
 
 ## `> ls repos/`
@@ -142,10 +127,11 @@ País/Estado   : Brasil - Santa Catarina🇧🇷
 
 | Repositório | Descrição | Stack | Status |
 |---|---|---|---|
-| 🔥 [security-news-aggregator](https://github.com/mateusdias96cs/security-news-aggregator) | Agregador automático de notícias de cibersegurança em tempo real com 10+ fontes (BleepingComputer, CISA, Hacker News...) | Python · HTML | ✅ Funcional |
+| 🛡️ [cybersentry](https://github.com/mateusdias96cs/cybersentry) | Scanner de vulnerabilidades web para PMEs — detecta falhas em headers, cookies, CORS, SSL, DNS, SQLi e XSS. API REST com FastAPI e banco de dados SQLite | Python · FastAPI · SQLite | 🔄 Em desenvolvimento |
+| 🔥 [security-news-aggregator](https://github.com/mateusdias96cs/security-news-aggregator) | Agregador automático de notícias de cibersegurança em tempo real com 10+ fontes. Deploy público com atualização diária automatizada via GitHub Actions | Python · HTML · GitHub Actions | ✅ Funcional |
+| 📝 [writeups-tryhackme](https://github.com/mateusdias96cs/writeups-tryhackme) | Writeups detalhados das rooms completadas no TryHackMe — raciocínio técnico, ferramentas e lições aprendidas | Markdown | 🔄 Em andamento |
 | 🎣 [phshing.dio.cyberseguranca](https://github.com/mateusdias96cs/phshing.dio.cyberseguranca) | Simulação educacional de site de phishing para estudo de engenharia social | HTML · CSS | ✅ Funcional |
 | 💀 [Projeto.Ransoware.python](https://github.com/mateusdias96cs/Projeto.Ransoware.python) | Implementação educacional de ransomware em Python demonstrando criptografia e descriptografia | Python | ✅ Funcional |
-| 🔐 [projeto-dio-Ransomware](https://github.com/mateusdias96cs/projeto-dio-Ransomware) | Estudo de ransomware em ambiente controlado | Python | ✅ Funcional |
 | 🌐 [enumeracao.smb](https://github.com/mateusdias96cs/enumeracao.smb) | Guia didático de enumeração SMB com password spraying | Bash · SMB | ✅ Funcional |
 | 🤖 [Cyberseguran-a-LLM](https://github.com/mateusdias96cs/Cyberseguran-a-LLM) | Base de conhecimento em cibersegurança e pentest usando NotebookLLM | AI · Research | ✅ Funcional |
 
@@ -176,11 +162,13 @@ País/Estado   : Brasil - Santa Catarina🇧🇷
   ✅ Cisco — Introdução à Cibersegurança
   ✅ Silver League (Top 2.3% TryHackMe)
   ✅ Hackers do Bem — Nível Fundamental (SENAI)
+  ✅ Security News Aggregator — deploy público com GitHub Actions
+  ✅ CyberSentry — scanner de vulnerabilidades com API REST
+  ✅ Primeiro writeup documentado (Blue — TryHackMe)
   🔄 1° Semestre — SENAC Cibersegurança
   🔄 Hackers do Bem — Nível Especializado (SENAI)
   📌 TryHackMe Jr Penetration Tester Path
-  📌 Primeiros scripts Python para segurança
-  📌 Primeiros writeups documentados
+  📌 Mais writeups documentados
 
 2026-2027 ─────────────────────────────────────────────────
   📌 eJPT (Junior Penetration Tester)
