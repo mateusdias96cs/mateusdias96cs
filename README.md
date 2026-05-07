@@ -132,6 +132,7 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 | Programa | Instituição | Status |
 |---|---|---|
 | 🏦 **Santander Bootcamp 2026 — 1° Semestre** | Santander + DIO | ✅ Aprovado e selecionado |
+| 🔐 **ISC2 Certified in Cybersecurity (CC)** | ISC2 | 🔄 Em preparação |
 
 ---
 
@@ -190,15 +191,14 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
   📌 Mais writeups documentados
 
 2026-2027 ─────────────────────────────────────────────────
-  📌 eJPT (Junior Penetration Tester)
+  📌 ISC2 Certified in Cybersecurity (CC) — em preparação
   📌 CompTIA Security+
-  📌 Primeiros projetos DevSecOps
   📌 Hackers do Bem — Nível Profissional (SENAI)
-  📌 Estágio na área
+  📌 Projetos Blue Team — SIEM, IDS/IPS, Threat Hunting
 
 2027+ ──────────────────────────────────────────────────────
-  📌 OSCP ou equivalente
-  📌 Especialização em DevSecOps ou Pentest
+  📌 CompTIA CySA+ (Cybersecurity Analyst)
+  📌 Especialização em Blue Team / SOC / Threat Intelligence
 ```
 
 ---
