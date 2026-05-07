@@ -26,10 +26,10 @@ $ cat perfil.txt
 
 Nome      : Mateus Camara Dias
 Curso     : Tecnologia em Cibersegurança — SENAC (1° Semestre)
-Programa  : Hackers do Bem — SENAI (Nível Fundamental ✅ Concluído)
-Foco      : Pentest | DevSecOps | Offensive Security
+Programa  : Hackers do Bem — SENAI (Fundamental ✅ | Blue Team Especializado 🔄)
+Foco      : Blue Team | Pentest | DevSecOps
 Status    : [ APRENDENDO ] Construindo base sólida em segurança ofensiva e defensiva
-Nível     : Mestre de Segurança — 2.208 XP | Ranking #2526
+Nível     : Mestre de Segurança — 2.424 XP | Ranking #2641
 País/Estado: Brasil - Santa Catarina 🇧🇷
 ```
 
@@ -41,10 +41,11 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 
 ```
 ┌─────────────────────────────────────────────────┐
+│  🔵  Blue Team & Threat Detection               │
 │  🔴  Pentest & Ethical Hacking                  │
-│  🔵  DevSecOps & Secure Development             │
 │  🟢  Redes & Protocolos                         │
 │  🟡  Análise de Vulnerabilidades                │
+│  ⚫  DevSecOps & Secure Development             │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -64,6 +65,7 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Paramiko](https://img.shields.io/badge/Paramiko-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
@@ -75,6 +77,7 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 |------|--------|------|
 | 🛡️ **Pre Security** | ✅ Concluído | Mar 2026 |
 | 🔐 **Cyber Security 101** | ✅ Concluído | Mar 2026 |
+| 🤖 **AI Security** | ✅ Concluído | Mai 2026 |
 
 ### 🏅 TryHackMe — Badges Conquistados
 
@@ -101,6 +104,9 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 | 🔐 Introdução à Cibersegurança | Certificado | Fev/Mar 2026 |
 | 🌐 Conceitos Básicos de Rede | Certificado | Fev 2026 |
 | 🚀 Começando com o Cisco Packet Tracer | Certificado | Fev 2026 |
+| 💻 Fundamentos do Hardware do Computador | Certificado | Abr 2026 |
+| 🐍 Fundamentos do Python 1 | Certificado | Abr 2026 |
+| 🌐 Introdução à IoT e à Transformação Digital | Certificado | Mai 2026 |
 | 🛡️ Especialista em Recursos | Módulo | Mar 2026 |
 | 📡 Defesa de Rede | Módulo | Mar 2026 |
 | 🔒 Salvaguardas do Sistema | Módulo | Mar 2026 |
@@ -110,6 +116,8 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 | 🌍 Comunicação em Rede | Módulo | Fev 2026 |
 | 🔗 Protocolo da Internet (IP) | Módulo | Fev 2026 |
 
+> 🏆 Selecionado entre mais de 70.000 alunos para a **12ª Edição do Programa CiberEducação Cisco Brasil**
+
 ### 🇧🇷 Hackers do Bem — SENAI (Programa Nacional)
 
 > Programa federal de capacitação em cibersegurança financiado pelo governo brasileiro, voltado para formação de profissionais da área.
@@ -117,7 +125,13 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 | Nível | Status | Módulos Concluídos |
 |---|---|---|
 | 🟢 **Fundamental** | ✅ Concluído | 12/12 módulos + Avaliação Final aprovada |
-| 🔵 **Especializado** | 🔄 Próxima etapa | — |
+| 🔵 **Especializado — Blue Team** | 🔄 Em andamento (23%) | Laboratório Virtual · Threat Detection |
+
+### 🎓 Programas & Bootcamps
+
+| Programa | Instituição | Status |
+|---|---|---|
+| 🏦 **Santander Bootcamp 2026 — 1° Semestre** | Santander + DIO | ✅ Aprovado e selecionado |
 
 ---
 
@@ -127,8 +141,9 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 
 | Repositório | Descrição | Stack | Status |
 |---|---|---|---|
-| 🛡️ [cybersentry](https://github.com/mateusdias96cs/cybersentry) | Scanner de vulnerabilidades web para PMEs — detecta falhas em headers, cookies, CORS, SSL, DNS, SQLi e XSS. API REST com FastAPI e banco de dados SQLite | Python · FastAPI · SQLite | 🔄 Em desenvolvimento |
+| 🍯 [honeypot-ssh](https://github.com/mateusdias96cs/honeypot-ssh) | **APATE** — Honeypot SSH profissional que simula servidor Linux real. Detecta brute force, privilege escalation, reconhecimento, lateral movement e exfiltração de dados. 6 regras de detecção, filesystem virtual, honeytokens e relatório automático de ataques | Python · Paramiko · bcrypt | ✅ Funcional |
 | 🔥 [security-news-aggregator](https://github.com/mateusdias96cs/security-news-aggregator) | Agregador automático de notícias de cibersegurança em tempo real com 10+ fontes. Deploy público com atualização diária automatizada via GitHub Actions | Python · HTML · GitHub Actions | ✅ Funcional |
+| 🛡️ [cybersentry](https://github.com/mateusdias96cs/cybersentry) | Scanner de vulnerabilidades web para PMEs — detecta falhas em headers, cookies, CORS, SSL, DNS, SQLi e XSS. API REST com FastAPI e banco de dados SQLite | Python · FastAPI · SQLite | 🔄 Em desenvolvimento |
 | 📝 [writeups-tryhackme](https://github.com/mateusdias96cs/writeups-tryhackme) | Writeups detalhados das rooms completadas no TryHackMe — raciocínio técnico, ferramentas e lições aprendidas | Markdown | 🔄 Em andamento |
 | 🎣 [phshing.dio.cyberseguranca](https://github.com/mateusdias96cs/phshing.dio.cyberseguranca) | Simulação educacional de site de phishing para estudo de engenharia social | HTML · CSS | ✅ Funcional |
 | 💀 [Projeto.Ransoware.python](https://github.com/mateusdias96cs/Projeto.Ransoware.python) | Implementação educacional de ransomware em Python demonstrando criptografia e descriptografia | Python | ✅ Funcional |
@@ -159,14 +174,18 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 2026 ──────────────────────────────────────────────────────
   ✅ TryHackMe Pre Security
   ✅ TryHackMe Cyber Security 101
-  ✅ Cisco — Introdução à Cibersegurança
+  ✅ TryHackMe AI Security
+  ✅ Cisco — Introdução à Cibersegurança + 5 certificados adicionais
   ✅ Silver League (Top 2.3% TryHackMe)
   ✅ Hackers do Bem — Nível Fundamental (SENAI)
   ✅ Security News Aggregator — deploy público com GitHub Actions
+  ✅ APATE — SSH Honeypot com detecção de ataques em tempo real
   ✅ CyberSentry — scanner de vulnerabilidades com API REST
+  ✅ Santander Bootcamp 2026 — aprovado e selecionado
+  ✅ Cisco CiberEducação — selecionado entre +70k para 12ª edição
   ✅ Primeiro writeup documentado (Blue — TryHackMe)
   🔄 1° Semestre — SENAC Cibersegurança
-  🔄 Hackers do Bem — Nível Especializado (SENAI)
+  🔄 Hackers do Bem — Especializado Blue Team (23%)
   📌 TryHackMe Jr Penetration Tester Path
   📌 Mais writeups documentados
 
