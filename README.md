@@ -143,13 +143,13 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 | Repositório | Descrição | Stack | Status |
 |---|---|---|---|
 | 🍯 [honeypot-ssh](https://github.com/mateusdias96cs/honeypot-ssh) | **APATE** — Honeypot SSH profissional que simula servidor Linux real. Detecta brute force, privilege escalation, reconhecimento, lateral movement e exfiltração de dados. 6 regras de detecção, filesystem virtual, honeytokens e relatório automático de ataques | Python · Paramiko · bcrypt | ✅ Funcional |
+| 🦀 [honeypot-analyzer](https://github.com/mateusdias96cs/honeypot-analyzer) | Analisador de logs do APATE escrito em Rust. Processa os eventos capturados pelo honeypot SSH, detecta padrões de ataque e exporta métricas estruturadas com mapeamento MITRE ATT&CK | Rust | ✅ Funcional |
+| 📊 [threat-analysis-case-studies](https://github.com/mateusdias96cs/threat-analysis-case-studies) | Análise de incidentes reais sob perspectiva do analista SOC — alertas reais, raciocínio de triagem e lições extraídas. Sem gabarito prévio | Markdown | 🔄 Em andamento |
+| 📁 [soc-analysis-writeups](https://github.com/mateusdias96cs/soc-analysis-writeups) | Incident reports de análise de PCAP com tráfego real de malware — Wireshark, VirusTotal e mapeamento MITRE ATT&CK | Markdown | 🔄 Em andamento |
 | 🔥 [security-news-aggregator](https://github.com/mateusdias96cs/security-news-aggregator) | Agregador automático de notícias de cibersegurança em tempo real com 10+ fontes. Deploy público com atualização diária automatizada via GitHub Actions | Python · HTML · GitHub Actions | ✅ Funcional |
 | 🛡️ [cybersentry](https://github.com/mateusdias96cs/cybersentry) | Scanner de vulnerabilidades web para PMEs — detecta falhas em headers, cookies, CORS, SSL, DNS, SQLi e XSS. API REST com FastAPI e banco de dados SQLite | Python · FastAPI · SQLite | 🔄 Em desenvolvimento |
 | 📝 [writeups-tryhackme](https://github.com/mateusdias96cs/writeups-tryhackme) | Writeups detalhados das rooms completadas no TryHackMe — raciocínio técnico, ferramentas e lições aprendidas | Markdown | 🔄 Em andamento |
-| 🎣 [phshing.dio.cyberseguranca](https://github.com/mateusdias96cs/phshing.dio.cyberseguranca) | Simulação educacional de site de phishing para estudo de engenharia social | HTML · CSS | ✅ Funcional |
-| 💀 [Projeto.Ransoware.python](https://github.com/mateusdias96cs/Projeto.Ransoware.python) | Implementação educacional de ransomware em Python demonstrando criptografia e descriptografia | Python | ✅ Funcional |
-| 🌐 [enumeracao.smb](https://github.com/mateusdias96cs/enumeracao.smb) | Guia didático de enumeração SMB com password spraying | Bash · SMB | ✅ Funcional |
-| 🤖 [Cyberseguran-a-LLM](https://github.com/mateusdias96cs/Cyberseguran-a-LLM) | Base de conhecimento em cibersegurança e pentest usando NotebookLLM | AI · Research | ✅ Funcional |
+
 
 > 🔨 *Portfólio em construção ativa — novos projetos sendo adicionados regularmente.*
 
@@ -177,18 +177,19 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
   ✅ TryHackMe Cyber Security 101
   ✅ TryHackMe AI Security
   ✅ Cisco — Introdução à Cibersegurança + 5 certificados adicionais
-  ✅ Silver League (Top 2.3% TryHackMe)
-  ✅ Hackers do Bem — Nível Fundamental (SENAI)
   ✅ Security News Aggregator — deploy público com GitHub Actions
   ✅ APATE — SSH Honeypot com detecção de ataques em tempo real
+  ✅ Honeypot Analyzer — analisador de logs em Rust com mapeamento MITRE ATT&CK
   ✅ CyberSentry — scanner de vulnerabilidades com API REST
+  ✅ SOC Analysis Writeups — incident reports com análise de PCAP real
+  ✅ Threat Analysis Case Studies — análise de incidentes reais sob perspectiva SOC
+  ✅ Hackers do Bem — Nível Fundamental (SENAI)
+  ✅ Cisco CiberEducação — 12ª edição
   ✅ Santander Bootcamp 2026 — aprovado e selecionado
-  ✅ Cisco CiberEducação — selecionado entre +70k para 12ª edição
-  ✅ Primeiro writeup documentado (Blue — TryHackMe)
   🔄 1° Semestre — SENAC Cibersegurança
-  🔄 Hackers do Bem — Especializado Blue Team (23%)
-  📌 TryHackMe Jr Penetration Tester Path
-  📌 Mais writeups documentados
+  🔄 Hackers do Bem — Especializado Blue Team (34%)
+  📌 ISC2 Certified in Cybersecurity (CC)
+  📌 Mais writeups e estudos de caso documentados
 
 2026-2027 ─────────────────────────────────────────────────
   📌 ISC2 Certified in Cybersecurity (CC) — em preparação
