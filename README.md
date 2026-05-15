@@ -125,7 +125,7 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 | Nível | Status | Módulos Concluídos |
 |---|---|---|
 | 🟢 **Fundamental** | ✅ Concluído | 12/12 módulos + Avaliação Final aprovada |
-| 🔵 **Especializado — Blue Team** | 🔄 Em andamento (23%) | Laboratório Virtual · Threat Detection |
+| 🔵 **Especializado — Blue Team** | 🔄 Em andamento (34%) | Laboratório Virtual · Threat Detection |
 
 ### 🎓 Programas & Bootcamps
 
