@@ -154,7 +154,7 @@ Certificados concluídos: Introdução à Cibersegurança, Conceitos Básicos de
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mateusdias96cs&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=ffffff)](https://github.com/mateusdias96cs)
+[![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=mateusdias96cs&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=ffffff)](https://github.com/mateusdias96cs)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=mateusdias96cs&theme=dark&hide_border=true&background=0d1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41)](https://github.com/mateusdias96cs)
 
