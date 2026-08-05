@@ -159,15 +159,13 @@ Certificados concluídos: Introdução à Cibersegurança, Conceitos Básicos de
 
 ---
 
-<div align="center">
+<pre align="center">
 
-```
 ╔══════════════════════════════════════════════╗
 ║   Aberto para networking, dicas e conexões   ║
 ║         Vamos crescer juntos na área!        ║
 ╚══════════════════════════════════════════════╝
-```
+
+</pre>
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=mateusdias96cs&color=00ff41&style=flat-square&label=VISITAS)
-
-</div>
