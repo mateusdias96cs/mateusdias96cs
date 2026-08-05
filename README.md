@@ -108,7 +108,7 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 | ⚙️ [aegis-lakehouse](https://github.com/mateusdias96cs/aegis-lakehouse) | Camada de analytics medalhão (bronze/silver/gold) para o AEGIS, rodando diariamente via GitHub Actions, com orçamento de armazenamento monitorado automaticamente antes de cada execução. | dbt · PostgreSQL · GitHub Actions |
 | 📰 [security-news-aggregator](https://github.com/mateusdias96cs/security-news-aggregator) | Agregador de notícias de cibersegurança com 10+ fontes, deploy público com atualização diária via GitHub Actions. | Python · GitHub Actions |
 
-### 🧬 Engenharia de sistemas (fora do eixo de segurança, mostra amplitude)
+### 🧬 Engenharia de sistemas
 
 | Repositório | Descrição | Stack |
 |---|---|---|
