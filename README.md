@@ -1,122 +1,253 @@
+# NutriQuery 🥗
 
-Markdown View 
-AA
-╔══════════════════════════════════════════════════════════╗
-║           MATEUS CAMARA DIAS // mateusdias96cs           ║
-║      Security Engineering & AI Applied to Cybersecurity  ║
-╚══════════════════════════════════════════════════════════╝
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-mateus96cs-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/mateus96cs) [![GitHub](https://img.shields.io/badge/GitHub-mateusdias96cs-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mateusdias96cs) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mateus_Dias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mateusdiascs/) 
+**A natural-language Text-to-SQL agent over a nutritional lakehouse, built on the Brazilian Food Composition Table (TACO, 4th ed., NEPA/UNICAMP).**
 
-> whoami
-$ cat perfil.txt
+Ask questions in Portuguese about the nutritional composition of Brazilian foods and get answers backed by a dimensional data warehouse, validated by a domain-expert-curated evaluation harness measuring *execution accuracy*.
 
-Nome      : Mateus Camara Dias
-Curso     : Tecnologia em Cibersegurança — SENAC (2° Semestre)
-Programa  : Hackers do Bem — SENAI (Fundamental ✅ | Blue Team Especializado 🔄)
-Foco      : Threat Intelligence Automation | Detection Engineering | Agentes de IA aplicados à segurança
-Status    : [ CONSTRUINDO ] Automação de segurança e IA aplicada a triagem, detecção e resposta a incidentes
-País/Estado: Brasil - Santa Catarina 🇧🇷
-"Security is not a product, but a process." — Bruce Schneier
+> Example: *"Quanto de proteína tem o frango grelhado?"* → the agent generates SQL, runs it read-only against the warehouse, and answers in natural language.
 
-> ./interesses.sh
-┌─────────────────────────────────────────────────┐
-│  🤖  Agentes de IA aplicados à segurança         │
-│  🔵  Threat Intelligence & Detection Engineering │
-│  🛡️  Automação de resposta a incidentes          │
-│  📊  Correlação de dados e arquitetura de pipeline│
-│  🟢  Redes & Protocolos                          │
-└─────────────────────────────────────────────────┘
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![DuckDB](https://img.shields.io/badge/DuckDB-1.5-yellow)
+![dbt](https://img.shields.io/badge/dbt--core-1.11-orange)
+![Dagster](https://img.shields.io/badge/Dagster-1.13-purple)
+![LangGraph](https://img.shields.io/badge/LangGraph-1.2-green)
+![Cost](https://img.shields.io/badge/cost-%240-brightgreen)
 
-> ls skills/
-Linguagens & ferramentas em uso:
-          
-IA & Agentes:
-    
-Dados:
- 
+---
 
-> ls repos/
-🎯 Projetos em destaque
-Repositório
-Descrição
-Stack
-🔗 attack-chain-verdict
-Pipeline de 4 agentes que transforma telemetria bruta do Windows (Sysmon, Security, PowerShell) em veredito de segurança estruturado, com técnica MITRE ATT&CK atribuída, confiança e justificativa. Trava de grounding: o veredito nunca cita técnica que a busca não recuperou. Avaliado contra golden set rotulado manualmente — 93% recall na recuperação, 87% acurácia estrita na atribuição final, 0 violações de grounding em 15 casos. Construído sobre o dataset de avaliação APT29 do MITRE (783 mil eventos reais).
-Python · LangGraph · Groq · Gemini · DuckDB · ChromaDB · Pydantic
-🛡️ aegis-threat-intelligence
-AEGIS CTI Platform — plataforma open source de Cyber Threat Intelligence com pipeline automatizado de coleta, normalização e scoring auditável de IOCs (~29.000 ativos em produção). Correlation graph com detecção de comunidades, MITRE ATT&CK Explorer, camada de analytics própria (dbt, bronze/silver/gold) com busca semântica via embeddings.
-Python · FastAPI · PostgreSQL · dbt · pgvector
-🎣 aegis-antiphishing-pipeline
-Detecção de domínios de phishing em tempo real via Certificate Transparency Logs, com arquitetura de dupla costimulação (heurística + confirmação factual via VirusTotal/RDAP) e análise por IA antes de qualquer alerta. Detectou domínios reais em produção, alertas automáticos via Telegram.
-Python · n8n · Docker · Gemini API
-🧠 Fundamentos de agentes de IA
-Repositório
-Descrição
-Stack
-🔍 cve-triage-agent
-Agente de triagem de CVEs implementado em três camadas progressivas (loop ReAct manual → saída estruturada Pydantic → framework smolagents), para entender o que cada abstração esconde antes de depender dela.
-Python · Gemini · Pydantic · smolagents
-🔢 nutriquery
-Agente Text-to-SQL em LangGraph sobre base nutricional (star schema em DuckDB via dbt), com harness de avaliação em três níveis (exact match → subconjunto numérico → overlap de nomes).
-Python · LangGraph · DuckDB · dbt
-🔵 Detecção & infraestrutura de segurança
-Repositório
-Descrição
-Stack
-📐 Sigma (sentinel-as-code)
-Detection-as-Code para Blue Team: regras Sigma versionadas com teste TP/FP automatizado offline, cobertura MITRE ATT&CK medida como percentual, pipeline CI/CD completo até deploy no Elastic.
-Python · Sigma · Elastic · GitHub Actions
-🍯 honeypot-ssh (APATE)
-Honeypot SSH que simula servidor Linux real. Detecta brute force, escalada de privilégios, reconhecimento e movimento lateral, com relatório automático de sessão.
-Python · Paramiko · bcrypt
-🛡️ cybersentry
-Scanner de vulnerabilidades web para PMEs — detecta falhas em headers, cookies, CORS, SSL, DNS, SQLi e XSS via API REST.
-Python · FastAPI · SQLite
-⚙️ aegis-lakehouse
-Camada de analytics medalhão (bronze/silver/gold) para o AEGIS, rodando diariamente via GitHub Actions, com orçamento de armazenamento monitorado automaticamente antes de cada execução.
-dbt · PostgreSQL · GitHub Actions
-📰 security-news-aggregator
-Agregador de notícias de cibersegurança com 10+ fontes, deploy público com atualização diária via GitHub Actions.
-Python · GitHub Actions
-🧬 Engenharia de sistemas (fora do eixo de segurança, mostra amplitude)
-Repositório
-Descrição
-Stack
-⚖️ Homeostatic-Load-controller
-Controlador de admissão inspirado em fisiologia humana (barorreceptor, AIMD, disjuntor com período refratário), prevenindo falhas metaestáveis sob tempestade de retentativas. Comparação A/B mensurável contra versão ingênua.
-Go · Docker · Prometheus · Grafana
-🔨 Portfólio em construção ativa — novos projetos sendo adicionados regularmente.
+## Why this project exists
 
-> cat certificados.txt
-🏆 TryHackMe
-Path
-Status
-🛡️ Pre Security
-✅ Concluído
-🔐 Cyber Security 101
-✅ Concluído
-🤖 AI Security
-✅ Concluído
-📜 Cisco Networking Academy
-📜Certificados concluídos: Introdução à Cibersegurança, Conceitos Básicos de Rede, Fundamentos do Python 1, Fundamentos do Hardware do Computador, Introdução à IoT e à Transformação Digital, Começando com o Cisco Packet Tracer.
-🏆 Selecionado entre mais de 70.000 alunos para a 12ª Edição do Programa CiberEducação Cisco Brasil.
+Text-to-SQL demos are easy to build and hard to *trust*. Any LLM can emit SQL that looks plausible and returns a wrong number. What makes NutriQuery different is the **evaluation layer**: the gold dataset and reference queries were curated by someone with graduate-level training in physiology, nutrition and biochemistry. That domain lens catches the plausible-but-wrong answers a generic builder would miss, for example:
 
-🇧🇷 Hackers do Bem — SENAI (Programa Federal)
-Nível
-Status
-🟢 Fundamental
-✅ Concluído (12/12 módulos + avaliação final)
-✅ Especialização - Blue Team 
+- Treating a `NULL` nutrient value as `0` (a missing measurement is not "zero of that nutrient").
+- Conflating plant-derived ALA omega-3 (flaxseed, walnuts) with marine EPA/DHA, which are biochemically distinct, with single-digit conversion rates in vivo.
+- Returning a "top foods" ranking from a nutrient that TACO simply does not measure (e.g. vitamin D).
 
-🎓 Programas
-Santander Bootcamp 2026 — 1° Semestre (Santander + DIO): aprovado e selecionado
-triggo.ai AI Engineering Bootcamp: selecionado entre ~1.000 candidatos via exame técnico
+The project also demonstrates a complete **modern data stack**, end to end:
 
-> top -stats github
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mateusdias96cs&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=ffffff)](https://github.com/mateusdias96cs) [![GitHub Streak](https://streak-stats.demolab.com?user=mateusdias96cs&theme=dark&hide_border=true&background=0d1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41)](https://github.com/mateusdias96cs) 
+```
+TACO Excel → medallion ELT (bronze → silver → gold) → tested dbt models
+           → orchestrated by Dagster → queried by a LangGraph Text-to-SQL agent
+           → measured by a custom execution-accuracy eval harness
+```
 
-╔══════════════════════════════════════════════╗
-║   Aberto para networking, dicas e conexões   ║
-║         Vamos crescer juntos na área!        ║
-╚══════════════════════════════════════════════╝
-![Visitor Count](https://komarev.com/ghpvc/?username=mateusdias96cs&color=00ff41&style=flat-square&label=VISITAS) 
+Everything runs locally at **zero cost** on Windows 11 + WSL2.
+
+---
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A["TACO 4th ed.<br/>(Excel, 3 sheets)"] -->|"pandas"| B["Bronze<br/>(DuckDB)"]
+    B -->|"dbt"| C["Silver<br/>(long format)"]
+    C -->|"dbt"| D["Gold<br/>(star schema)"]
+    U["User question<br/>(PT-BR)"] --> AG["LangGraph<br/>Text-to-SQL Agent"]
+    AG -->|"read-only SQL"| D
+    AG --> ANS["Natural-language answer"]
+    D --> EV["Eval Harness<br/>(execution accuracy)"]
+
+    classDef source fill:#e0f2fe,stroke:#0369a1,stroke-width:2px,color:#0c4a6e;
+    classDef store  fill:#fde68a,stroke:#b45309,stroke-width:2px,color:#5a2c00;
+    classDef agent  fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#0f3d20;
+    classDef output fill:#e9d5ff,stroke:#7e22ce,stroke-width:2px,color:#3b0764;
+
+    class A,U source;
+    class B,C,D store;
+    class AG,EV agent;
+    class ANS output;
+```
+
+---
+
+## Data model (star schema)
+
+Grain of the fact table: **one row per (food × nutrient), per 100 g**.
+
+| Table | Rows | Description |
+|---|---:|---|
+| `dim_food_group` | 15 | Food groups (cereals, meats, fruits…) |
+| `dim_food` | 597 | Individual foods (FK → `food_group_id`) |
+| `dim_nutrient` | 67 | Nutrients (protein, lipids, minerals, vitamins, fatty acids, amino acids) |
+| `fact_nutrient_values` | 25,296 | Nutrient value per food, per 100 g |
+
+Key column names (intentionally documented because the agent's prompt depends on them):
+
+- `fact_nutrient_values`: `food_id`, `nutrient_id`, `value` *(per 100 g)*
+- `dim_food_group`: `food_group_id`, `food_group_name`
+- `dim_food`: carries `food_group_id` for the join
+
+---
+
+## The data pipeline (Layer 1)
+
+A medallion architecture over DuckDB:
+
+- **Bronze:** three TACO sheets ingested with pandas. Main composition (597 foods), fatty acids (423 rows), amino acids (26 foods).
+- **Silver:** dbt models reshape each source into long format.
+- **Gold:** dbt builds the star schema (`dim_*` + `fact_nutrient_values`).
+- **Tests:** `not_null`, `unique`, and `relationships` enforce referential integrity.
+- **Orchestration:** the whole graph runs as **Dagster** assets (in-process executor to avoid DuckDB write-lock conflicts).
+
+*Proves: ELT, medallion architecture, data quality testing, orchestration.*
+
+---
+
+## The Text-to-SQL agent (Layer 2)
+
+A **LangGraph** state machine:
+
+```
+generate_sql → execute_sql → [conditional] → respond → END
+                                  │ on error
+                                  ▼
+                          increment_attempts → generate_sql   (retry, max 3×)
+```
+
+Design decisions:
+
+- **LLM:** Groq free tier, `llama-3.3-70b-versatile`, `temperature=0`.
+- **Read-only guardrail:** the agent's DuckDB connection is `read_only=True`; it can never modify the warehouse.
+- **Self-correction:** on a SQL error, the message is injected back into the prompt and the agent retries (up to 3 attempts).
+- **Schema-aware system prompt:** a 12-rule prompt encodes table/column descriptions, synonym mappings, `NULL`-semantics, and accent-sensitivity (DuckDB's `ILIKE` distinguishes `fígado` from `figado`).
+
+*Proves: agentic tool use, structured output, error handling.*
+
+---
+
+## The evaluation harness (Layer 3)
+
+A custom **execution-accuracy** harness over a hand-curated gold dataset.
+
+**Gold dataset, 21 questions across 4 difficulty tiers:**
+
+| Tier | Count |
+|---|---:|
+| `simple_filter` | 5 |
+| `join_group` | 6 |
+| `aggregation` | 5 |
+| `ambiguous` | 5 |
+
+**Three-level comparison** (strict → flexible):
+
+1. Exact numeric match
+2. Subset match (reference values appear in the agent's result)
+3. Food-name overlap ≥ 80 %
+
+Five questions deliberately have **no reference result**: their correct behavior is to *refuse* and return an "insufficient data in TACO" message (e.g. vitamin-D rankings, amino-acid questions over foods TACO never measured). The harness validates that refusal too, testing the agent's *epistemic honesty*, not just its arithmetic.
+
+> **Current state (honest note).** The harness is fully implemented and validated on partial runs. Running the complete benchmark in a single pass is constrained by free-tier LLM daily token limits, a deliberate trade-off since the project is intentionally zero-cost. The framework, gold dataset, comparison logic and reporting are complete and reproducible.
+
+*Proves: evaluation rigor, a differentiator that only a minority of AI portfolios demonstrate.*
+
+---
+
+## Project structure
+
+```
+nutriquery/
+├── data/raw/taco.xlsx          # source (TACO 4th ed.)
+├── db/nutriquery.duckdb        # warehouse (regenerable from the pipeline)
+├── ingest_taco.py              # bronze ingestion (main composition)
+├── ingest_taco_ag.py           # bronze ingestion (fatty acids)
+├── ingest_taco_aa.py           # bronze ingestion (amino acids)
+├── prompt.py                   # SYSTEM_PROMPT (12 rules)
+├── agent.py                    # LangGraph Text-to-SQL agent
+├── orchestration/
+│   ├── assets.py
+│   └── definitions.py          # Dagster definitions
+├── nutriquery_dbt/
+│   └── models/
+│       ├── silver/             # *_long.sql
+│       └── gold/               # dim_*.sql, fact_nutrient_values.sql, schema.yml
+└── evals/
+    ├── gold_dataset.json       # 21 curated questions
+    ├── generate_gold.py
+    ├── run_evals.py            # harness
+    ├── gold_results/           # reference parquet results
+    └── reports/                # per-run JSON reports
+```
+
+---
+
+## Setup & run
+
+Requires Windows 11 + WSL2 (Ubuntu) or any Linux, with Python 3.12.
+
+```bash
+# 1. Clone and enter
+git clone https://github.com/<your-user>/nutriquery.git
+cd nutriquery
+
+# 2. Create the virtual environment and install deps
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# 3. Set your free Groq API key (https://console.groq.com)
+echo "GROQ_API_KEY=your_key_here" > .env
+
+# 4. Build the warehouse (bronze → silver → gold)
+python3 ingest_taco.py && python3 ingest_taco_ag.py && python3 ingest_taco_aa.py
+cd nutriquery_dbt && dbt build && cd ..
+
+# 5. Talk to the agent
+python3 agent.py
+#   > quanto de proteína tem o frango grelhado?
+#   > sair  (to exit)
+
+# 6. (optional) Inspect orchestration
+dagster dev -m orchestration.definitions   # UI at http://127.0.0.1:3000
+
+# 7. (optional) Run the eval harness  (needs Groq token budget)
+python3 evals/run_evals.py
+```
+
+---
+
+## Known limitations of TACO 4th ed.
+
+| Nutrient | Situation |
+|---|---|
+| Vitamin D | No data for any of the 597 foods |
+| Amino acids | Data for only 26 foods |
+| Omega-6 (LA) | Not disaggregated; proxy: `ag_poliinsaturados_g` |
+| Portions | No portion table; all values are per 100 g |
+
+These are surfaced honestly by the agent rather than papered over, which is the whole point of the domain-curated eval layer.
+
+---
+
+## Roadmap
+
+The project is a deliberate stopping point at Layer 3 (a complete, self-contained portfolio piece). Planned extensions:
+
+- **Layer 4 (Observability / LLMOps).** Langfuse tracing per run (generated SQL, latency, tokens, cost), eval-metrics dashboard over time.
+- **Layer 5 (Hybrid routing + portion math).** A router agent that sends factual questions to Text-to-SQL and conceptual questions to RAG over a nutrition corpus, plus a `parse_portions` node for queries like *"calorias de 2 bananas e 2 ovos"*.
+- **Layer 6 (Deploy).** FastAPI + Streamlit on a free host (HF Spaces / Fly.io), with a live demo link.
+
+---
+
+## Tech stack
+
+| Layer | Tool |
+|---|---|
+| Source | TACO 4th ed. (NEPA/UNICAMP) |
+| Bronze ingestion | Python + pandas |
+| Warehouse | DuckDB |
+| Transformation | dbt-core + dbt-duckdb |
+| Orchestration | Dagster |
+| Agent framework | LangGraph |
+| LLM | Groq free tier (`llama-3.3-70b-versatile`) |
+| Evaluation | Custom execution-accuracy harness |
+
+---
+
+## Author
+
+**Mateus Camara Dias**, São José, SC, Brazil.
+Career transitioner into Data & AI Engineering, with a graduate background in physiology, nutrition and biochemistry, used here as a genuine domain differentiator in the evaluation layer.
+
+---
+
+*TACO (Tabela Brasileira de Composição de Alimentos) is published by NEPA/UNICAMP and used here for educational, non-commercial purposes.*
