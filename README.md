@@ -150,13 +150,19 @@ Certificados concluídos: Introdução à Cibersegurança, Conceitos Básicos de
 
 ## `> top -stats github`
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=mateusdias96cs&theme=dark&row=1&column=6)](https://github.com/mateusdias96cs)
-
 <div align="center">
 
 [![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=mateusdias96cs&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=ffffff)](https://github.com/mateusdias96cs)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=mateusdias96cs&theme=dark&hide_border=true&background=0d1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41)](https://github.com/mateusdias96cs)
+
+</div>
+
+<div align="center">
+
+<img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="80" alt="Pull Shark"/>
+<img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="80" alt="YOLO"/>
+<img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="80" alt="Quickdraw"/>
 
 </div>
 
