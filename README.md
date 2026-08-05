@@ -1,13 +1,9 @@
-<div align="center">
-
-```
+<pre align="center">
 ╔══════════════════════════════════════════════════════════╗
 ║           MATEUS CAMARA DIAS // mateusdias96cs           ║
 ║      Security Engineering & AI Applied to Cybersecurity  ║
 ╚══════════════════════════════════════════════════════════╝
-```
-
-</div>
+</pre>
 
 <div align="center">
 
@@ -36,19 +32,14 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
 
 ---
 
-## `> ./interesses.sh`
-
-```
-┌─────────────────────────────────────────────────┐
-│  🤖  Agentes de IA aplicados à segurança         │
-│  🔵  Threat Intelligence & Detection Engineering │
-│  🛡️  Automação de resposta a incidentes          │
-│  📊  Correlação de dados e arquitetura de pipeline│
-│  🟢  Redes & Protocolos                          │
-└─────────────────────────────────────────────────┘
-```
-
----
+<pre align="center">
+─────────────────────────────────────────────────
+  🤖  Agentes de IA aplicados à segurança
+          🔵  Threat Intelligence & Detection Engineering
+ 🛡️  Automação de resposta a incidentes
+            📊  Correlação de dados e arquitetura de pipeline
+─────────────────────────────────────────────────
+</pre>
 
 ## `> ls skills/`
 
