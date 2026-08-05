@@ -187,21 +187,12 @@ País/Estado: Brasil - Santa Catarina 🇧🇷
   ✅ Hackers do Bem — Nível Fundamental (SENAI)
   ✅ Cisco CiberEducação — 12ª edição
   ✅ Santander Bootcamp 2026 — aprovado e selecionado
-  🔄 1° Semestre — SENAC Cibersegurança
-  🔄 Hackers do Bem — Especializado Blue Team (34%)
-  📌 ISC2 Certified in Cybersecurity (CC)
-  📌 Mais writeups e estudos de caso documentados
+  ✅ Hackers do Bem — Especializado Blue Team 
+  🔄 2° Semestre — SENAC Cibersegurança
 
-2026-2027 ─────────────────────────────────────────────────
-  📌 ISC2 Certified in Cybersecurity (CC) — em preparação
-  📌 CompTIA Security+
-  📌 Hackers do Bem — Nível Profissional (SENAI)
-  📌 Projetos Blue Team — SIEM, IDS/IPS, Threat Hunting
 
-2027+ ──────────────────────────────────────────────────────
-  📌 CompTIA CySA+ (Cybersecurity Analyst)
-  📌 Especialização em Blue Team / SOC / Threat Intelligence
-```
+
+
 
 ---
 
