@@ -26,7 +26,7 @@ $ cat perfil.txt
 
 Nome      : Mateus Camara Dias
 Curso     : Tecnologia em Cibersegurança — SENAC (2° Semestre)
-Programa  : Hackers do Bem — SENAI (Fundamental ✅ | Blue Team Especializado 🔄)
+Programa  : Hackers do Bem — SENAI (Fundamental ✅ | Blue Team Especializado ✅)
 Foco      : Threat Intelligence Automation | Detection Engineering | Agentes de IA aplicados à segurança
 Status    : [ CONSTRUINDO ] Automação de segurança e IA aplicada a triagem, detecção e resposta a incidentes
 País/Estado: Brasil - Santa Catarina 🇧🇷
@@ -139,7 +139,7 @@ Certificados concluídos: Introdução à Cibersegurança, Conceitos Básicos de
 | Nível | Status |
 |---|---|
 | 🟢 Fundamental | ✅ Concluído (12/12 módulos + avaliação final) |
-| 🔵 Especializado — Blue Team | 🔄 Em andamento |
+| 🟢 Especializado — Blue Team | ✅ Concluído |
 
 ### 🎓 Programas
 
